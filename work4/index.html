@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work4</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        #container{
+            border: 1px solid black;
+            margin-inline: auto; 
+            width: 50%;
+        }
+        #Warning{
+            border-left: 4px solid red;
+            margin: 20px 10px 10px 20px;
+            background-color: rgba(255,0,0,0.1);
+            height: 40px;
+            padding-top: 10px;
+        }
+        #info{
+            border-left: 4px solid blue;
+            margin: 20px 10px 10px 20px;
+            background-color: rgba(0,0,255,0.1);
+            height: 40px;
+            padding-top: 10px;
+        }
+        #poster{
+            border:10px solid black ;
+            height: 450px;
+            margin: 5%;
+            width: 350px;
+        }
+        img{
+            object-fit: cover;
+        }
+        #details{
+            
+            height: 222px;
+            background-color: rgb(251, 219, 159);
+        }
+        #title{
+            
+            padding-left: 14px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        #date{
+            
+            padding: 15px;
+            font-weight: 800;
+            color: gray;
+        }
+        #para{
+            padding-left:15px;
+            font-family: cursive;
+        }
+        #pic{
+            /* background-color: rgb(251, 219, 159); */
+            border: 1px solid black;
+            height: 210px
+            }
+
+        #button{
+         
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            padding-top: 8px;
+            color: white;
+            background-color: black;
+            margin-top: 28px;
+            margin-left: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="info">
+            <span style="font-weight:600; padding-left: 5px;">Info!</span><span> Some text...</span>
+        </div>
+        <div id="Warning">
+            <span style="font-weight:600;padding-left: 5px;">Warning!</span><span> Some text...</span>
+
+        </div>
+        <div id="poster">
+            <div id="pic">
+                <img width="100%" height="208px" src="https://media.gettyimages.com/id/1269226133/photo/concept-of-new-york-city-statue-of-liberty-downtown.jpg?s=612x612&w=gi&k=20&c=j490kQvLK__AlFHjeip2eyt9X954Nda82kn1yIs3vkk=" alt="">
+            </div>
+            
+            <div id="details">
+                <p id="title">New York</p>
+                <p id="date">Fri 27 Nov 2016</p>
+                <p id="para">Lorem ipsum dolor sit amet,Numquam earum nostrum et perferendis eaque!</p>
+                <div id="button"> Buy Tickets</div>
+            </div>
+           
+        </div>
+
+
+    </div>
+</body>
+</html>

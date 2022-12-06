@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            
+        }
+        
+        header {
+            background-color:lightgreen;
+            
+           
+        }
+        header div {
+            border-bottom: 2px solid green ;
+            text-align: center;
+
+        }
+        
+        nav span {
+            color:antiquewhite;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-left: 50px;
+            padding-right:50px ;
+        }
+        nav div {
+            background-color: black; 
+            border-bottom:2px solid red ;
+            
+        }
+        a:link {
+            text-decoration: none;
+        }
+        h1 {
+            margin:1%;
+            padding-left: 50px;
+        }
+        .details {
+            position: absolute;
+            top: 5%;
+            right: 15%;
+            width: 50%;
+
+        }
+        .main {
+            position: relative;
+        }
+        th {
+            padding: 100px;
+        }
+        article {
+            float: left;
+            text-align: center;
+            border: 2px solid;
+            background-color:blanchedalmond;
+            margin: 2%;
+            padding: 3%;
+            width: 20%;
+            height: 170px;
+        }
+        #form {
+            margin: 2%;
+        }
+        
+        #places div,#foods div {
+            float: left;
+            margin: 1.7%;
+            padding: px;
+            
+    
+        }
+        #intro{
+            background-color: yellowgreen;
+
+        }
+        #form {
+            background-color: yellow;
+        }
+        #places {
+            margin: 2%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div><p>Learning MERN-Stack Web-Development</p></div>
+    </header>
+    <nav>
+        <div>
+            <a href="#intro"><img style="padding-right:40%; padding-left: 30px;  width:150px; height: 40px;" src="mern-stack.png" alt="logo"></a>
+            <a href="#intro"><span>HOME</span></a>
+            <a href="#form"><span>ABOUT</span></a>
+            <a href="#foods"><span>FOODS</span></a>
+            <a href="#places"><span>TRAVEL</span></a>
+        </div>
+    </nav>
+    <main>
+        <div class="main">
+            <section  id="intro">
+            <div>
+                <h1>Hi I am Ashwin</h1>
+                <img style="padding:10px ;" width="300px" src="profile.png" alt="">
+            </div>
+            </section>
+            <section class="details" >
+            <div >
+                <h2>I Am Good in Programming Languages like </h2>
+                <article>
+                    <img width="50px" src="c-programming.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatibus magnam deleniti non ut, explicabo </p>
+                </article>
+                <article >
+                    <img width="100px" src="Java-Logo.png" alt="">
+                    Lorem ipsum  lalka dolor, sit amet consectetur adipisicing elit. Quo architecto non, excepturi ad debitis in a ipsa, perferendis 
+                </article>
+                <article>
+                    <img width="100px" src="javascript.png" alt="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti esse ex repellat rem adipisci quidem temporib
+                </article>
+
+            </div>
+            </section>
+            <hr>
+            <section>
+                <div id="form">
+                    <h2 style="background-color:black; width:70px; color: white; text-align: center;">Form</h2>
+                    <h3 style="padding-bottom:20px ;" >If You Want to Work with me Then fill Your Details Here</h3>
+                    <form style="background-color:rgb(226, 224, 255) ;" action="">
+                        <label for="First-Name">First Name</label>
+                        <input type="text" name="First-Name">
+                        <label for="Last-Name">Last Name</label>
+                        <input type="text" name="Last-Name">
+                        <br><br>
+                        <label for="email">Email-Id</label>
+                        <input type="email" name="Email-Id" >
+                        <label for="Gender">Gender</label>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="Others">Others</option>
+                        </select>
+                        <br><br>
+                        <input type="Submit">
+                        <input type="Reset">
+
+                    </form>
+                </div>
+
+            </section>
+            <hr>
+
+            <section id="places">
+                    <h3 style = "padding-left:40%;">Places I visited Last Year</h3>
+                    <div>
+                        <h4>Kashmir</h4>
+                        <img width="400px" height="300px" src="kashmir.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Rishikesh</h4>
+                        <img width="400px" height="300px" src="rishikesh.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Puri</h4>
+                        <img width="400px" height="300px" src="puri.jpg" alt="">
+
+                </div>
+
+            </section>
+            <hr>
+          
+            
+            <section id="foods">
+                <h3 style = "padding-left:40%;">My Fav Foods</h3>
+                <div>
+                    <h4>Panner-butter</h4>
+                    <img width="400px" height="300px" src="paneer.jpg" alt="">
+                </div>
+                <div>
+                    <h4>Mushroom</h4>
+                    <img width="400px" height="300px" src="mushroom.jpg" alt="">
+                </div>
+                <div>
+                    <h4>Dosa</h4>
+                    <img width="400px" height="300px" src="dosa.jpg" alt="">
+
+            </div>
+
+        </section>
+
+        </div>
+    </main>
+    <footer></footer>
+
+</body>
+</html>

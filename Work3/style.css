@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#head {
+    border-bottom: 1px solid black;
+    background-color: silver;
+    padding: 2px;
+}
+h1{
+    font-size: 1.5em;
+    display: inline-block;
+    margin-left:40%;
+
+}
+#nav-bar{
+    background-color: rgba(0, 0, 0, 0.862);
+    padding: 4px;
+    position: relative;
+}
+#logo {
+    width: 48%;
+    display: inline-block;
+}
+#nav-bar-shortcut {
+    padding: 2px;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    bottom: 7px;
+}
+#nav-bar-shortcut span {
+text-align: center;
+color: white;
+}
+a:link{
+    text-decoration: none;
+}
+#nav-home{
+    display: inline-block;
+    margin-right:90px ;
+    
+}
+#nav-about{
+    display: inline-block;
+    margin-right:90px ;
+   
+}
+#nav-gallery{
+    display: inline-block;
+    margin-right:90px ;
+    
+}
+#nav-Places{
+    display: inline-block;
+    
+}
+
+/*******main start**********/
+
+h3{
+    background-color: black;
+    color: white;
+}
+h2{
+    background-color: maroon;
+    color:whitesmoke
+}
+#main{
+    background:rgb(240, 228, 114);
+}
+#info{
+    display: inline-block;
+    width: 35%;
+    height: 350px;
+    vertical-align: top;
+
+}
+#details{
+    display: inline-block;
+    width: 64%;
+    height: 350px;
+    vertical-align: top;
+}
+#profile-pic{
+    
+    padding: 2px;
+    margin: 2px;
+    display: inline-block;
+    width: 62%;
+    height: 300px;
+    vertical-align: top;
+}
+#social{
+    padding: 2px;
+    margin: 2px;
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    vertical-align: top;
+}
+#social a{
+    color: black;
+}
+#java{
+    background-color: rgb(212, 124, 116);
+    border: 1px solid black;
+    margin: 2px;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    vertical-align: top;
+}
+#c{
+    border: 1px solid black;
+    background-color: rgb(222, 169, 217);
+    margin: 2px;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    vertical-align: top;
+}
+#javascript{
+    border: 1px solid black;
+    background-color: rgb(187, 189, 231);
+    margin: 2px;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    vertical-align: top;
+}
+
+#form{
+    margin: 2px;
+    border: 2px solid black;
+    height: 200px;
+    background-color:rgb(142, 224, 123);
+}
+
+#foods{
+    margin: 5px;
+}
+#places{
+    margin: 2px;
+}
+/********main end******/
+
+/*****footer start*****/
+#footer{
+    border: 1px solid black;
+   padding-left:100px ;
+   background-color: black;
+   color: white;
+}
+/*****footer end*****/

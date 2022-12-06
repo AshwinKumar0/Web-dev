@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            position: relative;
+            width: 100px;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 1% 1%;
+            color: whitesmoke;
+            background-color:green;
+            transform: translate(200%,200%);
+            border-radius:4px ;
+           
+        }
+        .box::after{
+            content: '';
+            position: absolute;
+            display: block;
+            bottom: 0%;
+            left: -10px;
+            border: 10px solid;
+            border-top-color:transparent;
+            border-bottom-color:green;
+            border-left-color:transparent;
+            border-right-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Hello</div>
+</body>
+</html>

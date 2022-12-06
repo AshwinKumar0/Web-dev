@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width = device-width", initial-scale="1.0">
+            <title>My Web-site</title>
+            <style>
+                *{
+                    margin: 0%;
+                    padding: 0%;
+                    box-sizing: border-box;
+                }
+
+                /****HEADER AND NAV Start***/
+                header{
+                    background-color:rgba(206, 28, 37, 0.045);
+                     color:black;
+                    text-align: center;
+                    border-bottom: 1px solid silver;
+                }
+                nav div {
+                    position: absolute;
+                    top: 10px;
+                    right: 20px;
+                }
+                nav div span {
+                    color: beige;
+                    text-align: center;
+                    padding-left:50px ;
+                    float:right;
+                }
+
+            
+                #nav-bar {
+                    background-color:black;
+                    border-bottom:2px solid red ;
+                    
+
+                }
+                a:link{
+                    text-decoration: none;
+                }
+                /****HEADER AND NAV end***/
+
+                /**** main Start***/
+                #info #div2 {
+                    border: 1px solid black;
+                    width: 65%;
+                    height: 400px;
+                    position: relative;
+                    left: 520px;
+                    
+                }
+                #info #div1 {
+                    border: 1px solid black;
+                    width: 35%;
+                    height: 400px;
+                    position:absolute;
+                    left:0;
+                    
+                }
+                #div1 h2 ,#div2 h2{
+                padding-top: 20px;
+                padding-left:10px;
+                height: 15%;
+                }
+
+                #div1 img{
+                    margin-left: 50px;
+                    margin-top: 20px;
+                }
+                #div1{
+                    background-color: aqua;
+                }
+                #div2{
+                    background-color: blue;
+                }
+                .article{
+                    border: 1px solid red;
+                    height: 28%;
+                    background-color: burlywood;
+                }
+                #contact img{
+                    width: 15px;
+                }
+                #contact span {
+                    color: black;
+                }
+
+               #section2 #div3 {
+                position: absolute;
+                top: 5000;
+                    border: 1px solid red;
+                }
+
+
+                /****main end***/
+            </style>
+        </head>
+        <body>
+            <header>
+                <section>
+                <h1>Learning mern-stack</h1>
+                </section>
+            </header>
+            <nav>
+                <section id="nav-bar">
+                    <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png" alt="logo">
+                    <div id="nav">
+                        <a href="#HOME"><span>HOME</span></a>
+                        <a href="#HOME"><span>ABOUT</span></a>
+                        <a href="#HOME"><span>GALLERY</span></a>   
+                    </div>
+                </section>
+
+            </nav>
+            <main>
+                <section id="Section1">
+                    <div id="info">
+                    <div id="div1">
+                       <h2>Hey I am Ashwin Learning MERN-stack</h2>
+                       <img width="250px" src="https://via.placeholder.com/400" alt="profile">
+                       <div id="contact">
+                        <h4>Social Media</h4>
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="facebook-icon">
+                        <a href=""><span> Facebook</span></a>
+                        <img src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" alt="linkedin-icon">
+                        <a href=""><span>LinkedIn</span></a>
+                        <img src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png" alt="github-icon">
+                        <a href=""><span>GitHub</span></a>
+
+                       </div>
+
+                    </div>
+
+                    <div id="div2">
+                        <h2>My Fav Programming Languages are</h2>
+                        <div class="article"><h3>Java</h3>
+                            <img width="40px" src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png" alt="java-icon">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo molestiae fugit, perferendis vitae vero quos illum ullam officia nesciunt hic quasi odit quaerat enim tenetur assumenda. Perferendis reiciendis illo quaerat?</p></div>
+                        <div class="article"><h3>Javascript</h3>
+                            <img width="40px" src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" alt="javascript-icon">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla hic itaque illum quae pariatur omnis a est natus! Aperiam quos consequuntur sed nisi impedit iste nemo fugiat asperiores. Amet, molestias.</p>
+                        </div>
+                        <div class="article"><h3>C</h3>
+                            <img width="40px" src="https://cdn-icons-png.flaticon.com/512/3665/3665923.png" alt="c-icon">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae fuga excepturi debitis quos at blanditiis. At culpa veritatis, harum perferendis fugiat cumque error eius aspernatur itaque, iste atque asperiores perspiciatis!</p></div>
+                    </div>
+                    <div id="div3">
+                        <form action="">
+                            <label for="First-Name">First-Name</label>
+                            <input type="text" >
+                        </form>
+                    </div>
+                    </div>
+                </section>
+            </main>
+            <footer></footer>
+        </body>
+    </html>
