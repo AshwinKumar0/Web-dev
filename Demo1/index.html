@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>City to Coordinates</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- <script src="script.js"></script> -->
+  <title>UNESCO World Heritage Site Finder</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div id="map"></div>
-	<div id="search-container">
-		<label for="search-input">Enter a city:</label>
-		<input type="text" id="search-input" placeholder="e.g. New York">
-		<button id="search-button">Search</button>
-	</div>
-
-     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBHWfC_ITH6XVxpcQfxwSN1CmXCAQPPEw&callback=initMap"
-      defer
-    ></script>
-    <script src="script.js"></script>
+  <h1>UNESCO World Heritage Site Finder</h1>
+  <form>
+    <label for="cityName">Enter a city name:</label>
+    <input type="text" id="cityName" name="cityName" required>
+    <button type="submit">Search</button>
+  </form>
+  <div class="result" id="world-heritage-list">
+</div>
+<script src="script.js"></script>
 </body>
 </html>
-
 
