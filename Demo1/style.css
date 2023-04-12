@@ -12,10 +12,12 @@ body {
   
   h1 {
 	text-align: center;
-	margin-top: 30px;
-	padding: 20px;
-	background-color:rgb(0,119,212);
+	margin-top:10px;
+	padding: 30px;
+	background-color:rgb(87, 156, 161);
 	color:white;
+	position: fixed;
+	width: 100%;
   }
   
   form {
@@ -112,7 +114,11 @@ body {
 	flex-wrap: wrap;
 	flex-basis: 70%;
 }
-
-
+#cover{
+	/* background-color: #272626; */
+	border: 0.5px solid black;
+	height: 250px;
+	background-image: url(https://www.techniajz.com/uploads/blog_images/2fb2a522697c0f295308a151632a5794-0x0.jpg);
+}
 
   
